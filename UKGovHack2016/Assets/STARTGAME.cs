@@ -5,6 +5,7 @@ using System.Collections;
 using System.Xml;
 using System.Security.Permissions;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class STARTGAME : MonoBehaviour
@@ -104,7 +105,7 @@ public class STARTGAME : MonoBehaviour
                 day_type = "night";
                 break;
             case 1:
-                weather_type = "day";
+				day_type = "day";
                 break;
             case 2:
                 weather_type = "cloudy";
@@ -185,5 +186,11 @@ public class STARTGAME : MonoBehaviour
     {
         button.SetActive(false);
     }
+
+	public void restartGame()
+	{
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+
+	}
 }
 

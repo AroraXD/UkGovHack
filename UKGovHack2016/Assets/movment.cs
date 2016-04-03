@@ -9,6 +9,7 @@ public class movment : MonoBehaviour {
 	public float speed = 0;
 
 	public GameObject fireworks;
+	public GameObject reset;
 
 	private bool start = false;
 	// Use this for initialization
@@ -16,6 +17,8 @@ public class movment : MonoBehaviour {
 	void Start () {
 		fuel = 0;
 		fireworks.SetActive (false);
+		reset.SetActive (false);
+
 	}
 	
 	// Update is called once per frame
@@ -29,7 +32,7 @@ public class movment : MonoBehaviour {
 				speed -= 0.05f;
 			}
 
-			fuel -= (0.0015f * speed * 0.5f);
+			fuel -= (0.0015f * speed * 0.3f);
 			speed += 0.01f;
 			if (speed < 0) {
 				speed = 0;
@@ -53,6 +56,7 @@ public class movment : MonoBehaviour {
 			if (start == true) {
 				//GameObject.Find ("Fireworks").SetActive(true); //fireworks set off when game ends
 				fireworks.SetActive (true);
+				reset.SetActive (true);
 
 			}
 		}
