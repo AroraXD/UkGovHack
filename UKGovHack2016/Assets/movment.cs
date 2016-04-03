@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class movment : MonoBehaviour {
 
 	public float fuel = 100f;
-	public float speed = 10;
+	public float speed = 0;
 	// Use this for initialization
 
 	void Start () {
