@@ -1,7 +1,7 @@
 ## Synopsis
 
 A small game made during UKGovHack 2016.
-Made by me and rebbeca
+Made by me and rs6713
 
 ## Motivation
 
@@ -16,6 +16,7 @@ Download or clone, open in unity 5, build for platform of choice.
 ## Contributors
 
 @uveavanto
+@rs6713
 
 ## License
 
