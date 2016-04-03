@@ -29,7 +29,7 @@ public class movment : MonoBehaviour {
 				speed -= 0.05f;
 			}
 
-			fuel -= (0.0015f * speed);
+			fuel -= (0.0015f * speed * 0.5f);
 			speed += 0.01f;
 			if (speed < 0) {
 				speed = 0;

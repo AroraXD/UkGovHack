@@ -1,0 +1,17 @@
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/UnityEngine.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/UnityEditor.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Mono.Cecil.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Unity.DataContract.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/uve/Documents/Github/UkGovHack/UKGovHack2016/Temp/bin/Debug/Mono.Cecil.Mdb.dll
