@@ -7,10 +7,15 @@ public class movment : MonoBehaviour {
 
 	public float fuel = 100f;
 	public float speed = 0;
+
+	public GameObject fireworks;
+
+	private bool start = false;
 	// Use this for initialization
 
 	void Start () {
 		fuel = 0;
+		fireworks.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -44,6 +49,12 @@ public class movment : MonoBehaviour {
 			if (speed > 0) {
 				speed -= speed*0.1f;
 			}
+
+			if (start == true) {
+				//GameObject.Find ("Fireworks").SetActive(true); //fireworks set off when game ends
+				fireworks.SetActive (true);
+
+			}
 		}
 
 		transform.Translate (Vector3.left * speed * Time.deltaTime);
@@ -55,7 +66,16 @@ public class movment : MonoBehaviour {
 	{
 		fuel = 100;
 		speed = 5;
-		//GetComponent("StartButton").enabled = false;
+		start = true;
+	}
+
+	void OnCollisionEnter(Collision collision) {
+		foreach (ContactPoint contact in collision.contacts) {
+			Debug.DrawRay(contact.point, contact.normal, Color.white);
+		}
+		if (collision.relativeVelocity.magnitude > 2)
+			GetComponent<AudioSource>().Play();
+		print ("oh no");
 	}
 }
 

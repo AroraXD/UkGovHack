@@ -28,7 +28,6 @@ public class weatherControlScript : MonoBehaviour {
 		GameObject.Find ("headlightR").GetComponent<Light> ().intensity = 0;
 		GameObject.Find ("headlightL").GetComponent<Light> ().intensity = 0;
 		GameObject.Find ("Main Camera").GetComponent<Skybox> ().enabled = false;
-
 	}
 
 	public void SetNight()
