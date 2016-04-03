@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\STARTGAME.cs" />
      <Compile Include="Assets\movment.cs" />
+     <Compile Include="Assets\weatherControlScript.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
